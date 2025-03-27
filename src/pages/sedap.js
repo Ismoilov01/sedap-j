@@ -1,7 +1,7 @@
 import React from "react";
 import Sedap from "@/components/Sedap";
 import Menu from "@/components/Menu";
-import "@/styles/sedap.css";
+import styles from '@/styles/sedap.module.css'
 import Users from "@/components/Users";
 import Link from "next/link";
 import Image from "next/image";
