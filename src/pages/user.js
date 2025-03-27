@@ -7,7 +7,7 @@ import Link from 'next/link';
 function user() {
   return (
     <>
-        <div className='page'>
+        {/* <div className='page'>
         <h1 className='sedap'>Sedap.</h1>
         <p className='modern'>Modern Admin Dashboard</p>
     <Menu img="./home.png" name="Dashboard"/>
@@ -36,7 +36,7 @@ function user() {
     <img className='logo' src="./setting.png" alt="" />
     <h4 className='hello'>Hello, Samantha</h4>
     
-</div>
+</div> */}
 <div>
  <h1 className='mar'>27.03.2025 Ismoilov.Javohir</h1>
  
