@@ -116,3 +116,10 @@
     width: 40px;
     height: 40px;
 }
+a{
+    text-decoration: 0;
+}
+
+.mar{
+    margin-left: 300px;
+}
