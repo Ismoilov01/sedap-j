@@ -4,7 +4,7 @@ import Menu from "@/components/Menu";
 import Users from "@/components/Users";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/sedap.css";
+import styles from "@/styles/sedap.module.css";
 
 function sedap() {
   return (
