@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",  // Bu o'zgaruvchi sizning loyihangizning ildiz katalogini bildiradi
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // Bu aliasni '/src/' papkasiga yo'naltiradi
     }
   }
 }
