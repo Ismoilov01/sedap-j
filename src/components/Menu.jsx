@@ -1,5 +1,4 @@
 import React from 'react'
-import "@/styles/sedap.css";
 
 
 function Menu(props) {

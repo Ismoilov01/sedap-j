@@ -1,5 +1,6 @@
 import React from 'react'
-import "@/styles/sedap.css";
+
+
 
 function Sedap() {
   return (
