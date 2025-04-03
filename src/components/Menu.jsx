@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
 
 
 function Menu(props) {
     return (
         <>
         <div className='home'>
-        <img className='home2' src={props.img} alt="" />
+        <Image width={10} height={10} alt="gfg" className='home2' src={props.Image} />
         <p>{props.name}</p>
         </div>
         </>

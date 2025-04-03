@@ -1,5 +1,6 @@
 import React from 'react'
-import styles from "@/styles/sedap.css";
+import styles from "@/styles/sedap.module.css";
+import Image from 'next/image';
 
 
 function Users() {
@@ -12,7 +13,7 @@ function Users() {
                 <p className='london'>Corner Street 5th, London</p>
                 <p className='veronica'>$78.92</p>
                 <button className='but veronica2'><p>$35.35</p></button>
-                <button className='set'><img src="./vertical.png" alt="" /></button>
+                <button className='set'><Image  width={10} height={10} alt="gfg" src="./vertical.png"/></button>
             </div>
         </>
 
