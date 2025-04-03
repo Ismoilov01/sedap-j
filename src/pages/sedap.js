@@ -4,7 +4,7 @@ import Menu from "@/components/Menu";
 import Users from "@/components/Users";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/sedap.module.css";
+import styles from "@/styles/sedap.css";
 
 function sedap() {
   return (
@@ -12,9 +12,8 @@ function sedap() {
       <div className="page">
         <Sedap />
         <Link href="http://localhost:3006/user">
-          <Menu Image="/home.png" name="Dashboard" />
+          <Menu img="/home.png" name="Dashboard" />
         </Link>
-        <Menu img="/home.png" name="Order List" />
         <Menu img="/chiziqlar.png" width={10} height={10} alt="gfg" name="Order List" />
         <Menu img="/papka.png" width={10} height={10} alt="gfg" name="Order Detail" />
         <Menu img="/user.png" width={10} height={10} alt="gfg" name="Customer" />
