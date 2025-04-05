@@ -13,7 +13,7 @@ function Users() {
                 <p className='london'>Corner Street 5th, London</p>
                 <p className='veronica'>$78.92</p>
                 <button className='but veronica2'><p>$35.35</p></button>
-                <button className='set'><Image  width={10} height={10} alt="gfg" src="./vertical.png"/></button>
+                <button className='set'><Image  width={10} height={10} alt="gfg" src="/Images/vertical.png"/></button>
             </div>
         </>
 
