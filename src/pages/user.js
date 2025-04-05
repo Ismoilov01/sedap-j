@@ -12,7 +12,7 @@ function user() {
         <h1 className='sedap'>Sedap.</h1>
         <p className='modern'>Modern Admin Dashboard</p>
     <Menu Image width={10} height={10} alt="gfg" src="./home.png" name="Dashboard"/>
-    <Link className='link' href="http://localhost:3001/sedap"> <Menu Image width={10} height={10} alt="gfg" src="./chiziqlar.png" name="Order List"/></Link>
+    <Link className='link' href="http://localhost:3001/sedap"> <Menu Image width={10} height={10} alt="gfg"  src="./chiziqlar.png" name="Order List"/></Link>
     <Menu Image width={10} height={10} alt="gfg" src="./papka.png" name="Order Detail"/>
     <Menu Image width={10} height={10} alt="gfg" src="./user.png" name="Customer"/>
     <Menu Image width={10} height={10} alt="gfg" src="./analiz.png" name="Analytics"/>
@@ -24,7 +24,7 @@ function user() {
     <Menu Image width={10} height={10} alt="gfg" src="./chat.png" name="Chat"/>
     <Menu Image width={10} height={10} alt="gfg" src="./wallet.png" name="Wallet"/>
     
-    <Image width={10} height={10} alt="gfg" className='banner' src="./banner.png"/>
+    <Image src="./banner.png" width={10} height={10} alt="gfg" className='banner' />
     <h4 className='res'>Sedap Restaurant Admin Dashboard</h4>
     <p className='ikki'>© 2020 All Rights Reserved</p>
     <p className='made'>Made with ❤️ by Peterdraw</p>

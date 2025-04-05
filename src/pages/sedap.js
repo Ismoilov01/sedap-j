@@ -26,7 +26,7 @@ function sedap() {
         <Menu Image src="/chat.png" width={10} height={10} alt="gfg" name="Chat" />
         <Menu Image src="/wallet.png" width={10} height={10} alt="gfg" name="Wallet" />
 
-        <Image  width={10} height={10} alt="gfg" src="/banner.png"/>
+        <Image src="/banner.png" width={10} height={10} alt="gfg" />
         <h4 className="res">Sedap Restaurant Admin Dashboard</h4>
         <p className="ikki">© 2020 All Rights Reserved</p>
         <p className="made">Made with ❤️ by Peterdraw</p>
